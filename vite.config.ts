@@ -9,7 +9,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
-  base: '/medical-admin-system/',
+  base: './',
   css: {
     preprocessorOptions: {
       less: {
