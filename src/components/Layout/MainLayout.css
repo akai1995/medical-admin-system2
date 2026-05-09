@@ -1,0 +1,27 @@
+.main-layout {
+  min-height: 100vh;
+}
+
+.main-layout-light {
+  background-color: #F7F7F7;
+}
+
+.main-layout-dark {
+  background-color: #080808;
+}
+
+.content {
+  margin-top: 50px;
+  min-height: calc(100vh - 60px);
+}
+
+.content-wrapper {
+  padding: 0px;
+  min-height: 100%;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 0px;
+  }
+}

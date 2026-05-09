@@ -1,0 +1,130 @@
+.dashboard {
+  min-height: 100%;
+  padding: 0;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #262626;
+  margin: 0;
+}
+
+.dark-theme .page-title {
+  color: #FFFFFF;
+}
+
+.stat-card {
+  height: 100%;
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+}
+
+.dark-theme .stat-card {
+  background: #141414;
+  border-color: #2C2C2C;
+}
+
+.stat-card .ant-card-body {
+  padding: 20px;
+}
+
+.stat-card .ant-statistic-title {
+  font-size: 14px;
+  color: #595959;
+  margin-bottom: 8px;
+}
+
+.dark-theme .stat-card .ant-statistic-title {
+  color: #ADADAD;
+}
+
+.stat-trend {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.trend-up {
+  color: #49AA19;
+}
+
+.trend-down {
+  color: #F53F3F;
+}
+
+.trend-label {
+  color: #8C8C8C;
+  margin-left: 4px;
+}
+
+.dark-theme .trend-label {
+  color: #7E7E7E;
+}
+
+.chart-card,
+.table-card {
+  border-radius: 10px;
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+}
+
+.dark-theme .chart-card,
+.dark-theme .table-card {
+  background: #141414;
+  border-color: #2C2C2C;
+}
+
+.chart-card .ant-card-head,
+.table-card .ant-card-head {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.dark-theme .chart-card .ant-card-head,
+.dark-theme .table-card .ant-card-head {
+  border-bottom-color: #2C2C2C;
+}
+
+.chart-card .ant-card-head-title,
+.table-card .ant-card-head-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #262626;
+}
+
+.dark-theme .chart-card .ant-card-head-title,
+.dark-theme .table-card .ant-card-head-title {
+  color: #DCDCDC;
+}
+
+.chart-card .ant-card-body,
+.table-card .ant-card-body {
+  padding: 20px;
+}
+
+.table-card .ant-table-thead > tr > th {
+  border-left: none !important;
+}
+
+.table-card .ant-table-thead > tr > th::before {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 18px;
+  }
+
+  .stat-card .ant-statistic-content-value {
+    font-size: 20px !important;
+  }
+}

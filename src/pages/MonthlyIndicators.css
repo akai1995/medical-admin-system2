@@ -1,0 +1,77 @@
+.monthly-indicators-page {
+  padding: 0;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #262626;
+  margin: 0;
+}
+
+.dark-theme .page-title {
+  color: #FFFFFF;
+}
+
+.stats-row {
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+}
+
+.stat-card .ant-card-body {
+  padding: 20px;
+}
+
+.stat-card .ant-statistic-content-value {
+  font-weight: 500;
+}
+
+.stat-card .ant-statistic-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.stat-card .ant-statistic-content-prefix {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  line-height: 24px;
+}
+
+.dark-theme .stat-card {
+  background: #141414;
+  border-color: #2C2C2C;
+}
+
+.charts-row {
+  margin-bottom: 0;
+}
+
+.charts-row .ant-col {
+  margin-bottom: 20px;
+}
+
+.chart-card {
+  border-radius: 10px;
+  border: 1px solid #E5E5E5;
+}
+
+.dark-theme .chart-card {
+  background: #141414;
+  border-color: #2C2C2C;
+}
+
+@media (max-width: 768px) {
+  .chart-card .echarts {
+    height: 300px !important;
+  }
+}

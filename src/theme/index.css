@@ -1,0 +1,152 @@
+:root {
+  --primary-color: #177DDC;
+  --success-color: #49AA19;
+  --warning-color: #D89614;
+  --danger-color: #F53F3F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  transition: background-color 200ms ease-in-out;
+}
+
+.light-theme {
+  background-color: #F7F7F7;
+  color: #262626;
+}
+
+.dark-theme {
+  background-color: #080808;
+  color: #DCDCDC;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-layout-content {
+  padding: 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.ant-table-thead > tr > th.ant-table-cell {
+  border-left: none !important;
+}
+
+.ant-table-thead > tr > th.ant-table-cell::before {
+  display: none !important;
+}
+
+/* 输入框提示文字颜色 */
+.light-theme .ant-input::placeholder {
+  color: #B2B2B2;
+}
+
+.dark-theme .ant-input::placeholder {
+  color: #5B5B5B;
+}
+
+/* 选择框提示文字颜色 */
+.light-theme .ant-select-selection-placeholder {
+  color: #B2B2B2;
+}
+
+.dark-theme .ant-select-selection-placeholder {
+  color: #5B5B5B;
+}
+
+/* 日期选择器提示文字颜色 */
+.light-theme .ant-picker-input input::placeholder {
+  color: #B2B2B2;
+}
+
+.dark-theme .ant-picker-input input::placeholder {
+  color: #5B5B5B;
+}
+
+/* 输入框、选择框、日期选择器图标颜色 */
+.light-theme .ant-input-suffix,
+.light-theme .ant-select-arrow,
+.light-theme .ant-picker-suffix {
+  color: #B2B2B2;
+}
+
+.dark-theme .ant-input-suffix,
+.dark-theme .ant-select-arrow,
+.dark-theme .ant-picker-suffix {
+  color: #5B5B5B;
+}
+
+/* 暗色模式按钮样式 */
+.dark-theme .ant-btn-primary,
+.dark-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid {
+  background-color: #177DDC !important;
+  border-color: #177DDC !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .ant-btn-primary:hover,
+.dark-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:hover {
+  background-color: rgba(23, 125, 220, 0.7) !important;
+  border-color: rgba(23, 125, 220, 0.7) !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .ant-btn-primary:active,
+.dark-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:active {
+  background-color: rgba(23, 125, 220, 0.8) !important;
+  border-color: rgba(23, 125, 220, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.dark-theme .ant-btn-primary:disabled,
+.dark-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:disabled {
+  background-color: rgba(23, 125, 220, 0.4) !important;
+  border-color: rgba(23, 125, 220, 0.4) !important;
+  color: #ffffff !important;
+}
+
+/* 亮色模式按钮样式 */
+.light-theme .ant-btn-primary,
+.light-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid {
+  background-color: #177DDC !important;
+  border-color: #177DDC !important;
+  color: #ffffff !important;
+}
+
+.light-theme .ant-btn-primary:hover,
+.light-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:hover {
+  background-color: rgba(23, 125, 220, 0.7) !important;
+  border-color: rgba(23, 125, 220, 0.7) !important;
+  color: #ffffff !important;
+}
+
+.light-theme .ant-btn-primary:active,
+.light-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:active {
+  background-color: rgba(23, 125, 220, 0.8) !important;
+  border-color: rgba(23, 125, 220, 0.8) !important;
+  color: #ffffff !important;
+}
+
+.light-theme .ant-btn-primary:disabled,
+.light-theme .ant-btn-primary.ant-btn-color-primary.ant-btn-variant-solid:disabled {
+  background-color: rgba(23, 125, 220, 0.4) !important;
+  border-color: rgba(23, 125, 220, 0.4) !important;
+  color: #ffffff !important;
+}
